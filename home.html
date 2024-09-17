@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Routine Planner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex justify-center items-center min-h-screen" style="background-image: url('wallpaper.jpg'); background-size: cover; background-position: center;">
+    <div class="bg-rose-100 p-10 rounded-lg shadow-lg text-center max-w-screen-md">
+        <h1 class="text-3xl font-bold text-orange-700 mb-12">Workout Routine Planner</h1>
+
+        <div id="level-selection" class="space-y-4">
+            <h2 class="text-2xl text-orange-900 mb-8">Select Your Fitness Level</h2>
+            <button onclick="selectLevel('beginner')" class="bg-rose-500 text-xl text-white py-2 px-4 rounded hover:bg-rose-600">Beginner</button>
+            <button onclick="selectLevel('intermediate')" class="bg-rose-500 text-xl text-white py-2 px-4 rounded hover:bg-rose-600">Intermediate</button>
+        </div>
+
+        <div id="workout-selection" class="space-y-4 hidden">
+            <h2 class="text-2xl text-orange-900 mb-8">Select Today's Workout Split</h2>
+            
+            <button onclick="selectWorkout('upper')" class="bg-rose-500 text-xl text-white py-2 px-4 rounded hover:bg-rose-600">Upper Body</button>
+            <button onclick="selectWorkout('lower')" class="bg-red-500 text-xl text-white py-2 px-4 rounded hover:bg-red-600">Lower Body</button>
+            <button onclick="selectWorkout('full')" class="bg-orange-500 text-xl text-white py-2 px-4 rounded hover:bg-orange-600">Full Body</button>
+            <br>
+            <br>
+            <button onclick="goBackToLevelSelection()" class="bg-gray-400 text-xl text-white py-2 px-4 rounded hover:bg-gray-500">Go Back</button>
+        </div>
+
+        <div id="workout-checklist" class="space-y-4 hidden">
+            <h2 class="text-2xl text-orange-900 mb-8">Your Workout Checklist</h2>
+            <ul id="checklist" class="text-left text-xl text-orange-800"></ul>
+            <br>
+            <button onclick="goBackToWorkoutSelection()" class="bg-gray-400 text-xl text-white py-2 px-4 rounded hover:bg-gray-500">Go Back</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
