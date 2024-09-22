@@ -1,4 +1,4 @@
- ## :rocket: Live Website - [fitroutine.netlify.app](https://fitroutine.netlify.app/)
+ ## :rocket: Live Website - [fit-routine.netlify.app](https://fit-routine.netlify.app)
 
 Fitness app that customizes workout routine based on the user’s fitness level and area of workout. <br/>
  - Built using HTML, Tailwind and JS.
