@@ -1,4 +1,4 @@
- ## :rocket: Live Website - [fitroutine.netlify.app](https://divyashri-portfolio.netlify.app/)
+ ## :rocket: Live Website - [fitroutine.netlify.app](https://fitroutine.netlify.app/)
 
 Fitness app that customizes workout routine based on the user’s fitness level and area of workout. <br/>
  - Built using HTML, Tailwind and JS.
